@@ -1,0 +1,35 @@
+{
+  "name": "s3npm",
+  "version": "0.0.0",
+  "s3bucket":"soldair-s3npm",
+  "description": "publish packages to your own s3 bucket, install an resolve nested private or public deps without replacing or hacking npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/soldair/node-s3-npm.git"
+  },
+  "keywords": [
+    "npm",
+    "private",
+    "s3",
+    "bucket"
+  ],
+  "author": "Ryan Day",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "knox": "~0.5.5",
+    "confuse": "~0.0.1",
+    "colors": "~0.6.0-1",
+    "optimist": "~0.4.0",
+    "packageroot": "~0.0.0",
+    "packagereadme": "~0.0.0",
+    "packagegitconfig": "~0.0.0"
+  },
+  "devDependencies": {
+    "tap": "~0.4.1"
+  }
+}

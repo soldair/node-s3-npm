@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+var config = require('../config');
+var s3npm = require('../index.js');
+
+s3npm(config);
+
+

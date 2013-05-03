@@ -29,12 +29,14 @@
     "packagereadme": "~0.0.0",
     "packagegitconfig": "~0.0.0",
     "packagenpmjson": "~0.0.0",
-    "semver": "~1.1.4"
+    "semver": "~1.1.4",
+    "request": "~2.21.0",
+    "hyperquest": "~0.1.5"
   },
   "devDependencies": {
     "tap": "~0.4.1"
   },
-  "bin":{
-    "s3npm":"./bin/s3npm"
+  "bin": {
+    "s3npm": "./bin/s3npm"
   }
 }

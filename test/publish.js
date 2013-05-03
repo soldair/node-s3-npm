@@ -1,11 +1,16 @@
 var test = require('tap').test;
 var publish = require('../lib/publish');
 var config = require('../config');
+var path = require('path');
+
+config.dir = path.join(__dirname,'fixture');
+
+
 
 test("test publish",function(t){
   config.force = true;
   publish(config,function(err,data){
-    console.log(data);
+    console.log(err,data);
     var versions = Object.keys(data.versions);
 
 

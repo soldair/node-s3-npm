@@ -31,7 +31,8 @@
     "packagenpmjson": "~0.0.0",
     "semver": "~1.1.4",
     "request": "~2.21.0",
-    "hyperquest": "~0.1.5"
+    "hyperquest": "~0.1.5",
+    "npm": "~1.2.19"
   },
   "devDependencies": {
     "tap": "~0.4.1"

@@ -4,8 +4,8 @@ var info = require('./lib/info')
 var install = require('./lib/info')
 var log = require('./lib/log');
 
-// have to be able to put a package in s3
-// have to be able to install a package from s3 
+// can put a package in s3
+// can install a package from s3 
 
 module.exports = function(config){
 

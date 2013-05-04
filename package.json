@@ -5,7 +5,7 @@
   "description": "publish packages to your own s3 bucket, install an resolve nested private or public deps without replacing or hacking npm",
   "main": "index.js",
   "scripts": {
-    "test": "fail=0; for t in test/*.js; do tape $t; if [ -z $? ]; then fail=$?;fi  done; exit $fail;"
+    "test": "fail=0; for t in test/*.js; do tape $t; if [ \"$?\" != \"0\" ]; then fail=$?;fi  done; exit $fail;"
   },
   "repository": {
     "type": "git",
@@ -31,7 +31,6 @@
     "packagenpmjson": "~0.0.0",
     "semver": "~1.1.4",
     "request": "~2.21.0",
-    "hyperquest": "~0.1.5",
     "npm": "~1.2.19"
   },
   "devDependencies": {

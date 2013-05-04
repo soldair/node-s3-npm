@@ -2,6 +2,8 @@ var config = require('confuse')({files:['.s3npm.json']});
 var argv = require('optimist').argv;
 config._ = argv._;
 
+console.log(process.env);
+
 if(process.env.S3NPM_KEY) {
   console.log('have key');
   config.key = process.env.S3NPM_KEY;

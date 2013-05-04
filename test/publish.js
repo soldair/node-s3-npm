@@ -1,4 +1,4 @@
-var test = require('tap').test;
+var test = require('tape');
 var publish = require('../lib/publish');
 var config = require('../config');
 var path = require('path');

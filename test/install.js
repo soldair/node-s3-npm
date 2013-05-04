@@ -1,4 +1,4 @@
-var test = require('tap').test;
+var test = require('tape');
 var install = require('../lib/install');
 var config = require('../config');
 

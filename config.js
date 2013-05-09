@@ -1,4 +1,4 @@
-var config = require('confuse')({files:['.s3npm.json']});
+var config = require('confuse')({dir:process.cwd(),files:['.s3npm.json']});
 var argv = require('optimist').argv;
 config._ = argv._;
 

@@ -1,7 +1,7 @@
 
 var publish = require('./lib/publish')
 var info = require('./lib/info')
-var install = require('./lib/info')
+var install = require('./lib/install')
 var log = require('./lib/log');
 
 // can put a package in s3
@@ -26,6 +26,7 @@ module.exports = function(config){
       });
     },
     install:function(config){
+
       install(config,config._[1],function(err,data){
         if(err) return log('error',err);
         log('success',data);

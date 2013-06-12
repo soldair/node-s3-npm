@@ -1,6 +1,6 @@
 {
   "name": "s3npm",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "s3bucket": "soldair-s3npm",
   "description": "publish packages to your own s3 bucket, install an resolve nested private or public deps without replacing or hacking npm",
   "main": "index.js",

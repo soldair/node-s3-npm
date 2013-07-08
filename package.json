@@ -34,7 +34,7 @@
     "npm": "~1.2.19"
   },
   "devDependencies": {
-    "tape": "~0.3.3"
+    "tape": "~1.0.4"
   },
   "bin": {
     "s3npm": "./bin/s3npm"

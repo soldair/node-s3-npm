@@ -29,7 +29,7 @@ module.exports = function(config){
 
       install(config,config._[1],function(err,data){
         if(err) return log('error',err);
-        log('success',data);
+        if(data) log('success',data);
       });     
     }
   };

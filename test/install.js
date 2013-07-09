@@ -9,3 +9,12 @@ test('install package',function(t){
     t.end();
   });    
 });
+
+test('install on empty dependencies key', function(t) {
+  config.dir = __dirname + '/fixture';
+  install(config, null, function(err, data) {
+    t.ok(!err, 'should exit silently when no s3deps specified');
+    t.ok(data == null, 'should not be any installed deps');
+    t.end();
+  });
+});

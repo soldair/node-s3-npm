@@ -1,4 +1,4 @@
-THIS DOCUMENTATION IS A WORK IN PROGRESS. it does not yet reflect the current features and usecases.
+THIS DOCUMENTATION IS A WORK IN PROGRESS.
 
 node-s3-npm
 ===========
@@ -15,7 +15,7 @@ Install
 npm install -g s3npm
 ```
 
-configure
+configure #TODO im working on this now.
 
 ```sh
 s3npm configure
@@ -26,7 +26,7 @@ following the setup you just use npm normally
 npm install
 ```
 to setup a package update your `package.json` file to include 
-  - `s3Dependencies` 
+  - `s3Dependencies`
   - depend on `s3npm`
   - and run s3npm in the postinstall hook
 
@@ -44,7 +44,6 @@ to setup a package update your `package.json` file to include
   },
 }
 ```
-> s3npm depends on npm and take a while to install. <a href="#npmdep">see footnote</a>
 
 WORKFLOW
 ========
@@ -52,25 +51,16 @@ WORKFLOW
 publishing a module to your bucket
 ----------------------------------
 
-cd to your module
+`cd` to your module
 ```sh
 s3npm publish
 ````
-> I attempted a solution without s3npm globally. <a href="#prepublish">see footnote.</a>
+> I attempted a solution without s3npm globally. <a href="#prepublish">see prepublish footnote.</a>
 
 to install a module that depends on s3 modules
 ----------------------------------------------
 
-you just use npm normally. but the projects package.json will need a postinstall hook that executes s3npm install
-```js
-{
-
-  "s3Dependencies":{
-    "package":"version"
-  }
-}
-```
-
+you just use `npm install` normally, but the projects package.json will need a postinstall hook that executes s3npm install
  
 
 DETAILS

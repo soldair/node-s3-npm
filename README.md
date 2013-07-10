@@ -117,7 +117,7 @@ i attempted to use the prepublish hook to trigger s3npm publish and exit with a 
 <a name="iam"></a>
 iam user accounts
 -----------------
-i fell that its important to be able to manage user accounts and access but IAM is hard. i started a module called iamhard but have not had time to finish it. this has to work awesome if its added at all.
+i feel that its important to be able to manage user accounts and access but IAM is hard. i started a module called iamhard but have not had time to finish it. this has to work awesome if its added at all.
 
 <a name="npmdep"></a>
 npm dependency

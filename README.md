@@ -1,6 +1,6 @@
 THIS DOCUMENTATION IS A WORK IN PROGRESS.
 
-[![npm](https://nodei.co/npm/s3npm.png)](https://nodei.co/npm/s3npm.png)
+[![npm](https://nodei.co/npm/s3npm.png)](https://npmjs.org/package/s3npm)
 [![Build Status](https://travis-ci.org/soldair/node-s3-npm.png)](https://travis-ci.org/soldair/node-s3-npm)
 
 node-s3-npm

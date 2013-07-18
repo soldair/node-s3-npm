@@ -1,9 +1,10 @@
 THIS DOCUMENTATION IS A WORK IN PROGRESS.
 
+[![npm](https://nodei.co/npm/s3npm.png)](https://nodei.co/npm/s3npm.png)
+[![Build Status](https://travis-ci.org/soldair/node-s3-npm.png)](https://travis-ci.org/soldair/node-s3-npm)
+
 node-s3-npm
 ===========
-
-[![Build Status](https://travis-ci.org/soldair/node-s3-npm.png)](https://travis-ci.org/soldair/node-s3-npm)
 
 Publish packages to your own s3 bucket, install and resolve nested private or public deps without replacing or hacking npm.
 

@@ -1,4 +1,10 @@
-THIS DOCUMENTATION IS A WORK IN PROGRESS.
+
+# Disclaimer
+i do not recommend using this module in it's current state.
+it uses old and unsupported npm apis and it doesnt use scopes for private namespaces. 
+
+i have some much better ideas of how to put something like this together but no time at the moment.
+this should at least work and i will accept pull requests :)
 
 [![npm](https://nodei.co/npm/s3npm.png)](https://npmjs.org/package/s3npm)
 [![Build Status](https://travis-ci.org/soldair/node-s3-npm.png)](https://travis-ci.org/soldair/node-s3-npm)

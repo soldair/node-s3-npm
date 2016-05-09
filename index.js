@@ -16,25 +16,38 @@ module.exports = function(config){
   var cmds = {
     publish:function(config){
       publish(config,function(err,data){
-        if(err) return log('error',err);
+        if(err) {
+          log('error',err);
+          process.exit(1)
+        }
         log('success',data);
       }); 
     },
     info:function(config){
       info(config,config._[1],function(err,data){
-        if(err) return log('error',err);
+        if(err) {
+          log('error',err);
+          process.exit(1)
+        }
         log('success',data);
       });
     },
     install:function(config){
 
       install(config,config._[1],function(err,data){
-        if(err) return log('error',err);
+        if(err) {
+          log('error',err);
+          process.exit(1)
+        }
         if(data) log('success',data);
       });     
     },
     configure:function(config){
       configure(config,function(){
+        if(err) {
+          log('error',err);
+          process.exit(1)
+        }
         // 
         log("success","config done");
       });
